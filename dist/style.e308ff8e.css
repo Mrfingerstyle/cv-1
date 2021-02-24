@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before {
+  box-sizing: border-box;
+}
+
+*::after {
+  box-sizing: border-box;
+}
+
+#html {
+  word-break: break-all;
+}
+
+#div-1 {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 500px) {
+  #html {
+    height: 50vh;
+    overflow: auto;
+  }
+
+  #div-1-wrapper {
+    height: 50vh;
+  }
+
+  #div-1 {
+    position: relative;
+    top: 20px;
+    right: 0;
+  }
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
